@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <!-- 
 	Student Name: Damian Archer
-	File Name: conditional_script.php
+	File Name: gas_prices.php
 	Today's Date:  8/2/2022
 	Purpose:  CIS 333
  -->
 <html lang="en">
 <head>
-	<title>Conditional Script</title>
+	<title>Gas Prices</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +17,16 @@
 
 	
 	<?php
-	$int_variable = 75;
-	if($int_variable > 100)
+	
+	$gas_price = 2.57;
+	if ($gas_price >= 2 && $gas_price <=3)
 	{
-		$result = '$int_variable is greater than 100';
+		echo "<p>Gas Prices are between $2.00 and $3.00.</p>";
 	}
 	else
 	{
-		$result = '$int_variable is less than or equal to 100';
+		echo  "<p>Gas prices are not between $2.00 and $3.00</p>";
 	}
-	echo "<p>$result</p>";
 	?>
 	
 </body>
