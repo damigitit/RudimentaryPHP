@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- 
 	Student Name: Damian Archer
-	File Name: template.php
+	File Name: logical_operators.php
 	Today's Date:  6/16/22
 	Purpose:  Ch1 Exercises
  -->

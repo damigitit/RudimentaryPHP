@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- 
 	Student Name: Damian Archer
-	File Name: template.php
+	File Name: conditional_statement.php
 	Today's Date:  6/16/22
 	Purpose:  Ch1 Exercises
  -->
@@ -16,29 +16,29 @@
 	<p>If Else Statement</p>
 	<?php
 	
-	$Year = 2010;
-	$ZodiacSign = "";
-	if ($Year == 2010)
+	$year = 2010;
+	$zodiac_sign = "";
+	if ($year == 2010)
 	{
 		
-		$ZodiacSign = "<p>This is the year of the Tiger.</p>\n";
+		$zodiac_sign = "<p>This is the year of the Tiger.</p>\n";
 	}
 	else
 	{
-		$ZodiacSign = "<p>This is not the year of the Tiger.</p>\n";
+		$zodiac_sign = "<p>This is not the year of the Tiger.</p>\n";
 	}
 	
-	echo $ZodiacSign;
+	echo $zodiac_sign;
 		
 	?>
 	
 	<p>Conditional Operator</p>
 	<?php
 	
-	$Year = 2010;
-	$ZodiacSign = "";
-	($Year == 2010) ? $ZodiacSign = "<p>This is the year of the Tiger.</p>\n" : "<p>This is not the year of the Tiger.</p>\n";
-	echo $ZodiacSign;
+	$year = 2010;
+	$zodiac_sign = "";
+	($year == 2010) ? $zodiac_sign = "<p>This is the year of the Tiger.</p>\n" : "<p>This is not the year of the Tiger.</p>\n";
+	echo $zodiac_sign;
 	?>
 	
 </body>
