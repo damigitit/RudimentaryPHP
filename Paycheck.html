@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Paycheck</title>
+	<!--
+	Author:				Damian Archer
+	Date:				August 3rd, 2022
+	Purpose:			CIS 333
+	Supporting Files:   process_JumbleMaker.php
+	-->
+	<meta http-equiv="content-type"
+		content="text/html" charset="iso-8859-1" />
+	</head>
+<body>
+<h2 style = "text-align:center">Paycheck Calc</h2>
+		<form  name="Paycheck" id="Paycheck" action = "Paycheck.php" method = "post">
+		<!--Because this is an html document, not a .php document, I believe these
+		two lines cause the field values to be the php scripts when form is cleared-->
+		<p>Enter Hours:  <input type="text" name="hours" id = "hours" value="<?php echo $_POST['hours'];?>" /></p>
+		<p>Enter Wage:  <input type="text" name="wage" id = "wage" value="<?php echo $_POST['wage'];?>" /></p>
+		<input type="reset" value="Clear Form" />&nbsp;
+		&nbsp;<input type="submit" name="submit" id="submit" value="Submit" />
+		</form>
+		
+</body>
+</html>
